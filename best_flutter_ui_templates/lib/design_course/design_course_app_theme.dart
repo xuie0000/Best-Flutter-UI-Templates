@@ -19,13 +19,13 @@ class DesignCourseAppTheme {
   static const Color spacer = Color(0xFFF2F2F2);
 
   static const TextTheme textTheme = TextTheme(
-    headline4: display1,
-    headline5: headline,
-    headline6: title,
-    subtitle2: subtitle,
-    bodyText1: body2,
-    bodyText2: body1,
-    caption: caption,
+    headlineLarge: display1,
+    headlineMedium: headline,
+    headlineSmall: title,
+    titleSmall: subtitle,
+    bodyMedium: body2,
+    bodyLarge: body1,
+    bodySmall: caption,
   );
 
   static const TextStyle display1 = TextStyle(
